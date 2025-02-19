@@ -219,8 +219,8 @@ You can use this section to customize the virtual wan networking that will be de
 */
 connectivity_type = "virtual_wan"
 
-/* connectivity_resource_groups = {
-  ddos = {
+connectivity_resource_groups = {
+ /* ddos = {
     name     = "$${ddos_resource_group_name}"
     location = "$${starter_location_01}"
   }*/
